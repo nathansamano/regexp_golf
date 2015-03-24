@@ -31,7 +31,7 @@ verify(/\d{6}/,
        ["no", "hotten totten tenten"]);
 
 // a word without the letter e
-verify(/[^e]/,
+verify(/\b[^e]+\b/i,
        ["red platypus", "wobbling nest"],
        ["earth bed", "learning ape"]);
 
