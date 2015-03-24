@@ -11,7 +11,7 @@ verify(/pop|prop/,
        ["plop"]);
 
 // ferret, ferry, and ferrari
-verify(/ferret|ferry|ferrari/,
+verify(/[ferret|ferry|ferrari]/,
        ["ferret", "ferry", "ferrari"],
        ["ferrum", "transfer A"]);
 
